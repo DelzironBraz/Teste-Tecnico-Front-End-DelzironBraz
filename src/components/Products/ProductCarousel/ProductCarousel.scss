@@ -1,0 +1,25 @@
+.product-carousel {
+    max-width: 1250px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 1rem;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .12);
+    background-color: white;
+
+    &-title {
+        width: 100%;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+        padding: 1rem;
+
+        h2 {
+            color: #a54114;
+        }
+    }
+
+    &-content {
+        width: 100%;
+        padding: 1rem;
+    }
+}
