@@ -1,0 +1,23 @@
+.cart {
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+    padding-top: 6rem;
+}
+
+@media (max-width: 1250px) {
+    .cart {
+        padding: 6rem 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .cart {
+        padding: 1rem;
+    }
+}
