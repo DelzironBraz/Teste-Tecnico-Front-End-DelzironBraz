@@ -13,7 +13,7 @@ header {
         display: flex;
         justify-content: space-between;
         padding: 1.25rem;
-        background-color: white;
+        background-color: #171d25;
         box-shadow: 0 3px 10px rgba(0, 0, 0, 0.2);
     }
 
@@ -22,12 +22,18 @@ header {
         font-size: 1.5rem;
         padding: 0.25rem;
         cursor: pointer;
-        color: #a54114;
+        color: white;
     }
 
     .menu-icon {
         display: flex;
         cursor: pointer;
+
+        div {
+            a {
+                color: white;
+            }
+        }
     }
 
     .nav-menu {
@@ -35,7 +41,7 @@ header {
             display: flex;
             flex-direction: column;
             position: absolute;
-            background-color: white;
+            background-color: #171d25;
             left: 0;
             top: 5rem;
             font-weight: 500;
