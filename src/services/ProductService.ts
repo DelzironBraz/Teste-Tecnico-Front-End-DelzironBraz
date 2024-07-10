@@ -9,7 +9,7 @@ export const productService = {
                 throw new Error('Error fetching products');
             }
 
-            return response.data;
+            return response.data.products;
         } catch (error) {
             console.error('Error fetching products:', error);
             throw error;
