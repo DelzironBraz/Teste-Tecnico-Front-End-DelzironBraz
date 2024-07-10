@@ -1,0 +1,23 @@
+.home {
+    overflow-x: hidden;
+    background-color: #ebebeb;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 6rem 0;
+}
+
+
+@media (max-width: 1250px) {
+    .home {
+        padding: 6rem 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .home {
+        padding: 1rem;
+    }
+}
