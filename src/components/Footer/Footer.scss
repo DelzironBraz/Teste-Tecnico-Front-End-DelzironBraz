@@ -8,12 +8,24 @@ footer {
             padding: 2.5rem 1rem;
             background-color: #a54114;
 
-            .logo {
-                font-weight: 600;
-                font-size: 1.5rem;
-                padding: 0.25rem;
-                cursor: pointer;
-                color: white;
+            &-title {
+                display: flex;
+                flex-direction: column;
+                justify-content: start;
+                align-items: start;
+                gap: .5rem;
+
+                .logo {
+                    font-weight: 600;
+                    font-size: 1.5rem;
+                    padding: 0.25rem;
+                    cursor: pointer;
+                    color: white;
+                }
+
+                p {
+                    color: white;
+                }
             }
         }
 
